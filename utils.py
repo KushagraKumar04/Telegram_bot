@@ -5,6 +5,7 @@ def get_daily_horoscope(sign, day):
     horoscope_data = {
         "Aries": "Today is a great day to on personal growth.",
         "Taurus": "You might find unexpected financial gains today.",
+        "Gemini": "Take Care of your health.",
         # Add more signs and messages as needed.
     }
     
