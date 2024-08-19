@@ -28,7 +28,7 @@ def sign_handler(message):
 def day_handler(message):
     sign = message.text
     text = ("What day do you want to know?\n"
-            "Choose one: *TODAY*, *TOMORROW*, *YESTERDAY*, or a date in format YYYY-MM-DD.")
+            "Choose one: *Present*, *TOMORROW*, *YESTERDAY*, or a date in format YYYY-MM-DD.")
     sent_msg = bot.send_message(message.chat.id, text, parse_mode="Markdown")
     bot.register_next_step_handler(sent_msg, fetch_horoscope, sign.capitalize())
 
