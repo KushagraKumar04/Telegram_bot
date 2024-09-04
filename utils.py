@@ -8,6 +8,7 @@ def get_daily_horoscope(sign, day):
         "Gemini": "Take Care of your health and be physically fit.",
         "Cancer": "You might find someone special in your life.",
         "Leo": "Today you might get an increment in your job .",
+        "Sagitarious":"Best Day New Openings.",
         # Add more signs and messages as needed.
     }
     
